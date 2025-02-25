@@ -5,7 +5,7 @@ FROM golang:1.22.1
 WORKDIR /app
 
 # Copy all files and directories to the working directory
-COPY . ./
+COPY . .
 
 # Download Go modules
 RUN go mod download
